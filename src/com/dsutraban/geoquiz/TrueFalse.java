@@ -2,9 +2,11 @@ package com.dsutraban.geoquiz;
 
 public class TrueFalse {
 	
+	// Instance variables
 	private int mQuestion;
 	private boolean mTrueQuestion;
 	
+	// Class constructor
 	public TrueFalse(int question, boolean trueQuestion)
 	{
 		mQuestion = question;
